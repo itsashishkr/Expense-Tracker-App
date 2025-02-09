@@ -1,0 +1,133 @@
+
+
+/* Dark theme colors */
+:root {
+  --dark-bg: #fefefe;
+  --dark-card: #ffffffed;
+  --dark-text: #1c0202;
+  --dark-border: #404040;
+  --dark-hover: #3d3d3d;
+  --dark-input: #fff
+}
+/* 
+body {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+.middle-content{
+  background-color: #DAFFFB;
+}
+
+/* Dark theme overrides for Bootstrap components */
+.navbar-dark {
+  background-color: var(--dark-card) !important;
+}
+
+.card {
+  background-color: var(--dark-card) !important;
+  border-color: var(--dark-border) !important;
+  color: var(--dark-text) !important;
+}
+
+.form-control, .form-select {
+  background-color: var(--dark-input) !important;
+  border-color: var(--dark-border) !important;
+  color: var(--dark-text) !important;
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: var(--dark-input) !important;
+  border-color: #0d6efd !important;
+  color: var(--dark-text) !important;
+}
+
+.table {
+  color: var(--dark-text) !important;
+}
+
+.table thead th {
+  border-color: var(--dark-border) !important;
+}
+
+.table td {
+  border-color: var(--dark-border) !important;
+}
+
+.form-label {
+  color: var(--dark-text) !important;
+}
+
+/* Dark theme for chart */
+canvas {
+  background-color: var(--dark-card) !important;
+}
+
+.dashboard-container{
+  
+  /* background-color: rgba(0, 255, 157, 0.545) !important; */
+  background-color: #000000!important;
+  box-shadow: 8px 6px 7px rgb(252, 252, 255);
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
+  
+}
+
+.add-new-expense{
+  background-color: #F4EAE0 !important;
+  box-shadow: 7px 7px 7px rgba(184, 171, 171, 0.689);
+  border: 1px solid rgb(229, 224, 224) !important;
+}
+
+.expense-analysis{
+  background-color: #F4EAE0 !important;
+  box-shadow: 7px 7px 7px rgba(184, 171, 171, 0.689);
+  border: 1px solid rgb(229, 224, 224) !important;
+}
+
+.recent-expenses{
+  background-color: #F4EAE0 !important;
+    box-shadow: 7px 7px 7px rgba(184, 171, 171, 0.689);
+  border: 1px solid rgb(14, 12, 12) !important;
+}
+.recent-expenses-card{
+  background-color: rgba(0, 0, 0, 0.77) !important;
+}
+
+.login-container{
+  width: 750px !important;
+}
+
+.signup-container{
+  width: 1000px !important;
+}
+
+.box_container{
+  background-color: #000000 !important;
+}
+.nav_style{
+  margin-left: auto;
+  font-size: large;
+  gap: 20px;
+}
+
+.nav_style_link {
+  color: white!important;
+  font-weight: 600 !important;
+}
+
+.nav_style_link:hover {
+  color: red !important;
+}
+
+.nav_style_link.active {
+  color: blue !important; 
+}
+
